@@ -1,0 +1,11 @@
+First of all I annotate the 400 images
+After that i Used yoloV8 model and done custom training
+the model detect the number plate and pytesseract read the data into text format
+After this the extracted data saves into a csv file with its index number 
+Same type of data did not store in csv file
+In overall, the model detetct the vehicles ,number plate and then extract the plate and with the use of pytesseract the data
+is converted into string.
+And then the extracted text get from the pytesseract saves into a csv file with its unique index number
+The scv file file functions only save the uniques data the functions did not write the duplicate data again. 
+
+[this model detect and save objects from Image, video and And it can detect the objects and save data from real time ]
